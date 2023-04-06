@@ -39,6 +39,11 @@ return packer.startup(function(use)
 
   use("bluz71/vim-nightfly-guicolors") -- preferred colorscheme
 
+  -- statusline
+  use("nvim-lualine/lualine.nvim")
+
+  -- git integration
+  use("lewis6991/gitsigns.nvim") -- show line modifications on left hand side
 
 
   if packer_bootstrap then

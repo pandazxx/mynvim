@@ -27,3 +27,8 @@ km.set("n", ";", ":")
 -- nvim-tree
 km.set("n", "<leader>e", ":NvimTreeToggle<CR>") -- toggle file explorer
 
+
+-- vim-maximizer
+km.set("n", "<leader>sm", ":MaximizerToggle<CR>") -- toggle split window maximization
+
+
