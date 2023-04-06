@@ -23,3 +23,7 @@ km.set("n", "<leader>tp", ":tabp<CR>")
 
 -- easy comand
 km.set("n", ";", ":")
+
+-- nvim-tree
+km.set("n", "<leader>e", ":NvimTreeToggle<CR>") -- toggle file explorer
+
